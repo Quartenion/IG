@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "vector": "c",
+        "random": "c",
+        "stdio.h": "c",
+        "ostream": "c",
+        "deque": "c",
+        "string": "c",
+        "iosfwd": "cpp",
+        "iostream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
