@@ -6,13 +6,17 @@ La escena es una **carpa de feria** con fardos de paja alrededor. Dentro hay una
 
 ## La escena
 
-| Exterior: la carpa | Interior: el adivino animado |
+| El adivino en acción | Vuelta de 360° al adivino |
 |---|---|
-| ![Vuelta alrededor de la carpa](docs/capturas/carpa-exterior.gif) | ![Animación del adivino](docs/capturas/adivino-animacion.gif) |
+| ![Vista frontal: se mete una moneda y el adivino da la fortuna](docs/capturas/adivino-frontal.gif) | ![Vuelta de 360 grados alrededor de la máquina](docs/capturas/adivino-360.gif) |
 
-![Máquina del adivino](docs/capturas/adivino.jpg)
+**Vista frontal:** se coge una moneda y se mete en la ranura de la derecha. La moneda cae, el adivino abre los ojos, mueve la cabeza, la boca y el brazo sobre la bola de cristal, vuelve a dormirse y entrega una carta de la fortuna por la ranura de la izquierda.
 
-Imágenes renderizadas con el propio programa, compilado en Linux.
+**Exterior:** la carpa de feria donde está la máquina.
+
+![Vuelta alrededor de la carpa](docs/capturas/carpa-exterior.gif)
+
+Imágenes renderizadas con el propio programa, compilado en Linux. Las animaciones van más rápidas que en tiempo real.
 
 ## Contenido
 
@@ -39,6 +43,8 @@ Necesita Linux (o WSL en Windows) con un compilador de C/C++ y las librerías de
    ```
 
 La cámara empieza dentro de la carpa, delante de la máquina. Para ver la carpa desde fuera, aléjate con `-` o AvPág.
+
+**Para que el adivino diga la fortuna:** haz clic en una de las monedas para cogerla y después haz clic en la ranura de monedas de la máquina. Cuando termine, haz clic en la carta para recogerla.
 
 ### Controles
 
